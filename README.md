@@ -59,7 +59,7 @@ DB_NAME=loja_db
 npm run start:dev
 ```
 
-A API estará rodando em: http://localhost:3000
+> A API estará rodando em: http://localhost:3000
 
 
 ### ROTAS DA API
