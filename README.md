@@ -46,10 +46,12 @@ DB_PASSWORD=sua_senha
 DB_NAME=loja_db
 
 4. Execute a aplicação
+
 (Modo de desenvolvimento)
 npm run start:dev
 
 A API estará rodando em: http://localhost:3000
+
 
 ROTAS DA API
 
