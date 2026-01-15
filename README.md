@@ -26,13 +26,17 @@ Pré-requisitos:
 - MySQL (Rodando localmente ou via Docker)
 
 1. Clone o repositório
-git clone https://github.com/SEU_USUARIO/loja-api-nestjs.git
+
+git clone https://github.com/MKGlins/api-ecommerce
+
 cd loja-api-nestjs
 
 2. Instale as dependências
+
 npm install
 
 3. Configure o Banco de Dados
+
 Crie um arquivo .env na raiz do projeto com as suas credenciais:
 
 DB_HOST=localhost
