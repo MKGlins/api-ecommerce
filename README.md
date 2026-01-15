@@ -1,17 +1,20 @@
-LOJA API - BACKEND (NESTJS)
+# LOJA API - BACKEND (NESTJS)
 
 API RESTful desenvolvida com NestJS para gerenciamento de produtos de uma loja virtual. O sistema conta com recursos avançados como Upload de Imagens, Paginação e Soft Delete (Lixeira).
+___
 
-TECNOLOGIAS
+# TECNOLOGIAS
 
 - NestJS (Framework Backend)
-- TypeScript (Linguagem)
+- TypeScript (Linguagem) 
 - TypeORM (ORM)
 - MySQL (Banco de Dados)
 - Multer (Upload de Arquivos)
 - Class Validator (Validação de DTOs)
 
-FUNCIONALIDADES
+___
+
+# FUNCIONALIDADES
 
 - CRUD Completo de Produtos: Criação, Leitura, Atualização e Exclusão.
 - Upload de Imagens: Armazenamento local de fotos dos produtos.
@@ -19,41 +22,47 @@ FUNCIONALIDADES
 - Soft Delete: Os produtos não são apagados do banco, vão para uma "Lixeira".
 - Restauração: Capacidade de restaurar produtos deletados.
 
-COMO RODAR O PROJETO
+___
+### COMO RODAR O PROJETO
 
 Pré-requisitos:
 - Node.js
 - MySQL (Rodando localmente ou via Docker)
 
-1. Clone o repositório
-
+## 1. Clone o repositório
+```bash
 git clone https://github.com/MKGlins/api-ecommerce
 
-cd loja-api-nestjs
+cd api-ecommerce
+```
 
-2. Instale as dependências
+## 2. Instale as dependências
+```bash
+npm install 
+```
 
-npm install
-
-3. Configure o Banco de Dados
+## 3. Configure o Banco de Dados
 
 Crie um arquivo .env na raiz do projeto com as suas credenciais:
-
+```bash
 DB_HOST=localhost
 DB_PORT=3306
 DB_USERNAME=root
 DB_PASSWORD=sua_senha
 DB_NAME=loja_db
+```
 
-4. Execute a aplicação
+## 4. Execute a aplicação
 
-(Modo de desenvolvimento)
+**(Modo de desenvolvimento)**
+```bash
 npm run start:dev
+```
 
 A API estará rodando em: http://localhost:3000
 
 
-ROTAS DA API
+### ROTAS DA API
 
 Produtos:
 - POST /products - Cria um produto.
